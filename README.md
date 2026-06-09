@@ -21,18 +21,6 @@ We evaluate five model families across 11 languages:
 ```
 .
 ├── main.ipynb                  # Full pipeline: data prep → training → evaluation → plots
-├── output/
-│   └── finetune-mbert-xquadr/
-│       ├── stageA/             # Stage A fine-tuned model checkpoint
-│       ├── stageB/             # Stage B fine-tuned model checkpoint (hard negatives)
-│       ├── corpus_embeddings.memmap
-│       ├── hard_negatives.pkl
-│       ├── triplet_examples.pkl
-│       ├── data_artifacts.pkl
-│       └── final_eval/
-│           ├── agg_metrics.json
-│           ├── per_query_first_rank.csv
-│           └── plots/          # All evaluation plots (mAP@k, Recall, MRR, heatmap, radar)
 └── README.md
 ```
 
